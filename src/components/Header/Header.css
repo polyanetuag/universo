@@ -1,0 +1,8 @@
+.content-App {
+    min-height: 60px;
+    background: rgb(154, 154, 154) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
