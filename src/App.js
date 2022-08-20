@@ -1,10 +1,13 @@
 
 import './App.css';
+import Header from './components/Header/Header.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header />
+      <h1>Home</h1>
+      {/* <header className="App-header">
         <p>
           Hello World!
         </p>
@@ -17,7 +20,7 @@ function App() {
         >
           Explore
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
