@@ -1,14 +1,14 @@
 import './Header.css';
 
-function App() {
+function Header() {
   return (
     <header className="content-App">
       {/* <span>Logo</span> */}
-      <p>Sobre</p>
-      <p>Planetas</p>
-      <p>Curiosidades</p>
+      <a href='/'>Sobre</a>
+      <a href='/'>Planetas</a>
+      <a href='/'>Curiosidades</a>
     </header>
   );
 }
 
-export default App;
+export default Header;
