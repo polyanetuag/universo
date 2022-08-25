@@ -11,11 +11,10 @@ function App() {
         <h1> Bem vindo ao Universo</h1>
 
         <span>
-          Explore a extensão tridimensional sem limites em que objetos e eventos
-          têm posição relativa
+          Explore a extensão tridimensional sem limites 
         </span>
         <button>Explore</button>
-
+    
         <p className="">
           "Em algum lugar, algo incrível está esperando para ser descoberto."
         </p>
