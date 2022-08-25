@@ -7,11 +7,67 @@
 .App {
   text-align: center;
   height: 100vh;
-  background: #b5b5b5;
-  /* background-image: url(https://unsplash.com/photos/oMpAz-DN-9I); */
+  /* background: #b5b5b5; */
+  background-image: url(https://images.unsplash.com/photo-1462332420958-a05d1e002413?ixlib=rb-1.2.1&auto=format&fit=crop&w=2840&q=80);
   font-family: 'Playfair Display', serif;
   color: #282c34;
   font-size: 1.2rem;
+  display: grid;
 }
+
+.App section {
+  padding: 80px 50px 50px 50px;
+  min-height: 80vh;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* background: rgb(54, 54, 54); */
+  display: grid;
+}
+
+.App section h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: rgb(55, 52, 52);
+  text-align: center;
+}
+
+
+
+.App section span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(54, 54, 54);
+  text-align: center;
+}
+
+.App section p {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.App section button {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  width: 20%;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(200, 103, 7);
+  margin: auto;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.App section button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(200, 103, 7);
+}
+
+
 
 
