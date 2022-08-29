@@ -5,8 +5,7 @@
 
 ## 📚 Sobre
 
-
-
+O projeto Universo consiste em utilizar a API da NASA para descobrir o que o nosso vasto universo proporciona.
 ## 🚀 Tecnologias utilizadas:
 
 - HTML
